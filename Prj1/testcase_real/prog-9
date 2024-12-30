@@ -1,0 +1,9 @@
+bool* f(int x, bool y) {
+  int *p = &x;
+
+  while (*p) {
+    p = p + 1;
+    *p = *p * 2;
+  } 
+  return NULL;
+}

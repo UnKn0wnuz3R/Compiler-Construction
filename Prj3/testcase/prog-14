@@ -1,0 +1,12 @@
+int add(int x, int y)
+{
+  int *px = &x;
+  int *py = &y;
+  int *t;
+  int ret = 0;
+  *px = 10;
+  t = px;
+  *py = *t + y;
+  ret = x + y;
+  return ret;
+}

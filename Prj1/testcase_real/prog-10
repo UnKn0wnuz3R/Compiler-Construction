@@ -1,0 +1,19 @@
+bool f(int x, bool y) {
+  int *p1 = &x;
+  int *p2 = p1;
+
+  while (a == b) {
+    bool x = y;
+    if (p1 == p2) {
+      return x;
+    } else {
+      if (x || y) {
+        int x = *p2 + 1;
+      } else {
+        int x = *p2 - 1;
+      }
+      return x;
+    }
+  } 
+  return x;
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h1vQFSYOu1ePotT08JYapZqtY00MUtwi4f9sxG1dUef2mi8C0H7/XScEIv4tqCSJSgNsI3ATLUcApays3R2e/A==",
+  "success": true,
+  "projectFilePath": "/home/unknownuzer/24-2/Compiler/Prj2/IRGenerate.fsproj",
+  "expectedPackageFiles": [
+    "/home/unknownuzer/.nuget/packages/fsharp.core/8.0.102/fsharp.core.8.0.102.nupkg.sha512",
+    "/home/unknownuzer/.nuget/packages/fslexyacc/11.2.0/fslexyacc.11.2.0.nupkg.sha512",
+    "/home/unknownuzer/.nuget/packages/fslexyacc.runtime/11.2.0/fslexyacc.runtime.11.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

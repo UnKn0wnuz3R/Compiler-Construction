@@ -1,0 +1,15 @@
+int f(int x, bool y) {
+  int *px = &x;
+  int *pi = NULL;
+  bool *pb = NULL;
+
+  pi = &px;
+
+  if (pb) {
+    *pb = *pb && !true;
+    return -1;
+  } else {
+    pb = &y;
+    return -pb;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kV5f4LE5YzSOhqrXrWooiNshBgcX1hiz/Jn9BcxwwhmHM0r8h6Bp1CV3mwbEzhkbGdij04W64ObOYJVpqKvaAg==",
+  "success": true,
+  "projectFilePath": "/home/unknownuzer/24-2/Compiler/HW2/P6/P6.fsproj",
+  "expectedPackageFiles": [
+    "/home/unknownuzer/.nuget/packages/fsharp.core/8.0.102/fsharp.core.8.0.102.nupkg.sha512"
+  ],
+  "logs": []
+}

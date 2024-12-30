@@ -1,0 +1,8 @@
+int prog(bool b) {
+    int x;
+    if (b) {
+        x = 5;
+    } else {
+    }
+    return x;
+}

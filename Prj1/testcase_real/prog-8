@@ -1,0 +1,10 @@
+bool f(int x, bool y) {
+  int *p = &x;
+  bool *q = &y;
+
+  if (p == q) {
+    return q;
+  }
+  
+  return (p > 0);
+}

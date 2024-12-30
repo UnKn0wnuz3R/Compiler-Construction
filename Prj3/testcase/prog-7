@@ -1,0 +1,28 @@
+bool f(int x) {  
+  int i;  
+  bool b;  
+  int *pi = &i;  
+  bool *pb = &b;
+  int i_arr[4];
+  bool b_arr[4];
+
+  i_arr[0] = 1;
+  i_arr[1] = 2;
+  i_arr[2] = 3;
+  i_arr[3] = 4;
+
+  b_arr[0] = true;
+  b_arr[1] = false;
+  b_arr[2] = true;
+  b_arr[3] = false;
+  
+  *pi = x;  
+  *pb = *pi < 10;  
+  if(*pb) {
+    i = *pi + 5;  
+  }
+  
+  *pi = i + 5;  
+  
+  return i;  
+}

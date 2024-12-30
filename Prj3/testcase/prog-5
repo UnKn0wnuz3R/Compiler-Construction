@@ -1,0 +1,58 @@
+int dong(int x, int y) {
+  int* a = &x;
+  int* b = &y;
+  int handsome[11];
+  bool donggas[11];
+  int ret = 0;
+  int* ptr = &ret;
+  handsome[0] = *a;
+  handsome[1] = *b;
+  handsome[2] = x * (*a);
+  handsome[3] = (*b) * y;
+  donggas[0] = true;
+  donggas[1] = true;
+  donggas[2] = false;
+  donggas[3] = true;
+  int idx = 0;
+  int* idxptr;
+  idxptr = &idx;
+  int* realidxptr = idxptr;
+  bool bo = true;
+  while(*realidxptr < 4 && bo) {
+	if(donggas[*idxptr]) {
+        *ptr = ret + handsome[*realidxptr];
+    }
+    else {
+        ret = *ptr - handsome[*idxptr];
+    }
+    *idxptr = *realidxptr + 1;
+    if(idx == 4) {
+        bo = false;
+    }
+    else {
+        bo = true;
+    }
+  }
+  if(ret < 10) {
+    return ret;
+  }
+  else {
+    if(*idxptr == *realidxptr || (ret / 0) > 0) {
+        return *ptr;
+    }
+    else {
+        if(0 != 0 && 4 / 0) {
+            return *ptr;
+        }
+        else {
+            int* gogo;
+            gogo = ptr;
+            int p = 1;
+            p = *gogo;
+            int u;
+            u = p;
+            return u;
+        }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+int g(int x, int y) {
+  int* a = &x;
+  int* b = &y;
+  int ret = 0;
+  int* ptr = &ret;
+  while( x > 0 ) {
+	x = x - 1;
+	ret = ret + 1;
+  }
+  if(y == 0) {
+  	return y; 
+  }
+  else {
+  	return ret;
+  }
+  
+}

@@ -1,0 +1,11 @@
+bool f(int x) {
+  int *p = x;
+  int *q = &x;
+
+  p = q;
+  if(p >= q) {
+    return p == q;
+  }
+
+  return z;
+}
